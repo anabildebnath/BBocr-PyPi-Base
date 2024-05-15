@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bbocr_reconstruction
+Version: 0.0.1
+Summary: BBocr reconstruction package
+Author: BBocr
+Author-email: <anabildebnath16@gmail.com>
+Keywords: python,bbocr,reconstruction
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: ApsisBNOCR
+Requires-Dist: BeautifulSoup
+Requires-Dist: HTMLFormatter
+Requires-Dist: YOLO
+Requires-Dist: Path
+
+A package that allows to reconstruct your recognizer output to create a html file
